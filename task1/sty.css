@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box; 
+}
+p{
+    font-family: sans-serif;
+}
+.main-title{
+    font-size: 2rem;
+}
+
+.main-body{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.left-body{
+    display: flex;
+    flex-direction: row;
+}
+.board{
+    flex: 3;
+}
+.info{
+    flex: 1;
+}
+
+.container {
+    padding: 0.2vw;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: gray;
+}
+
+.squ {
+    background-color: whitesmoke;
+    aspect-ratio: 1;
+    margin: 0.1vw;
+}
+
+.oppTank,.oppTitan,.oppCanon{
+    background-color: red;
+    color: white;
+}
+.plyTank,.plyTitan,.plyCanon{
+    background-color: blue;
+    color: white;  
+}
